@@ -1,0 +1,60 @@
+.padding {
+  padding: 3rem 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.margin1 {
+  margin: 1rem;
+}
+
+.fileUploadContainer {
+  border: 1px black solid;
+  background-color: #f4f4f4;
+  margin: 5%;
+  padding: 5%;
+}
+
+.fileUpload {
+  display: none;
+}
+
+.fileUploadLabel {
+  color: blue;
+}
+
+.fileUploadLabelDisabled {
+  color: grey;
+}
+
+.previewImage {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.previewImageContainer {
+  margin: 10px;
+}
+
+.previewImageDelete {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+  position: absolute;
+}
+
+.containerImages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
